@@ -1,4 +1,11 @@
 .Video {
-    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+.Player {
+    height: 450px;
     width: 700px;
 }

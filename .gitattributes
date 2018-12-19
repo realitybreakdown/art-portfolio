@@ -1,3 +1,15 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.png[[:space:]]*.mp4 filter=lfs diff=lfs merge=lfs -text
+Newt.png filter=lfs diff=lfs merge=lfs -text
+NothingNew1.png filter=lfs diff=lfs merge=lfs -text
+NothingNew2.png filter=lfs diff=lfs merge=lfs -text
+NothingNew3.png filter=lfs diff=lfs merge=lfs -text
+NothingNew4.png filter=lfs diff=lfs merge=lfs -text
+NothingNew5.png filter=lfs diff=lfs merge=lfs -text
+Newt.mp4 filter=lfs diff=lfs merge=lfs -text
+NothingNew1.mp4 filter=lfs diff=lfs merge=lfs -text
+NothingNew2.mp4 filter=lfs diff=lfs merge=lfs -text
+NothingNew3.mp4 filter=lfs diff=lfs merge=lfs -text
+NothingNew4.mp4 filter=lfs diff=lfs merge=lfs -text
+NothingNew5.mp4 filter=lfs diff=lfs merge=lfs -text
