@@ -5,7 +5,6 @@ class Photos extends Component {
   render() {
     return (
       <div className="Photos">
-        <h1>Photo</h1>
         <div className="Pics">
           <img src="../../img/Photo/AbandonedHome.png" alt="Home"/>
           <img src="../../img/Photo/AlbinoTree.png" alt="Tree"/>

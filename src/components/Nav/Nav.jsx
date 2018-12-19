@@ -1,12 +1,13 @@
 import './Nav.css';
 import React , {Component} from 'react';
 import { NavLink } from 'react-router-dom';
+import './Nav.css';
 
 
 class Nav extends Component {
   render() {
     return (
-    <div>
+    <div className="Nav">
       <NavLink to='' className='NavBar-link'>Ryan Arcambault</NavLink>
       &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <NavLink to='/projects' className='NavBar-link'>Projects</NavLink>
