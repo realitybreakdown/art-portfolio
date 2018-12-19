@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class HeyHowGood extends Component {
   render() {
     return (
-      <div className="Hey">
-        <h1>Hey How are You Good How are You Good</h1>
-      </div>
+      <Link to="/heyhowgood">
+        <div className="Hey">
+          <h3>Hey How are You Good How are You Good</h3>
+        </div>
+      </Link>
     );
   }
 }

@@ -4,7 +4,7 @@ class Paintings extends Component {
   render() {
     return (
       <div className="Photos">
-        <h1>Paintings</h1>
+        <h1>Painting</h1>
       </div>
     );
   }

@@ -1,0 +1,40 @@
+.Photos {
+
+}
+
+/* .Pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+
+.Pics img {
+    width: 550px;
+    height: 350px;
+    /* margin-bottom: 80px; */
+}
+
+.Chair img{
+    width: 355px;
+    height: 550px;
+}
+
+.Yosemite img{
+    width: 355px;
+    height: 550px;
+}
+
+.Hands img{
+    width: 355px;
+    height: 550px;
+}
+
+.Ladder img{
+    width: 355px;
+    height: 550px;
+}
+
+.Vertical {
+    display: flex;
+    justify-content: center;
+}

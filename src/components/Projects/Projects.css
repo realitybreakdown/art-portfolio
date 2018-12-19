@@ -1,0 +1,21 @@
+.Sculpture {
+    
+}
+
+.Sculpt {
+    border: solid;
+    border-color: black;
+    height: 250px;
+    width: 400px;
+}
+
+.Projects {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h3 {
+    margin-top: 110px;
+}
