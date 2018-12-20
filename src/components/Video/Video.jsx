@@ -9,7 +9,7 @@ const Video = (props) => {
         <Player
           playsInline
           poster="https://i.imgur.com/2lUXy5u.jpg"
-          src=""
+          src="../../img/Video/Newt.mp4"
         />
       </div>
       <div className="Player">
