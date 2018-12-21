@@ -1,23 +1,29 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import Blinkers from '../Blinkers/Blinkers';
-import WelcomeHome from '../WelcomeHome/WelcomeHome';
-import HeyHowGood from '../HeyHowGood/HeyHowGood';
-// import {Link, Route, BrowserRouter as Router} from 'react-router-dom';
+// import Blinkers from '../Blinkers/Blinkers';
+// import WelcomeHome from '../WelcomeHome/WelcomeHome';
+// import HeyHowGood from '../HeyHowGood/HeyHowGood';
+import {Link} from 'react-router-dom';
 
 class Projects extends Component {
   render() {
     return (
       <div className="Sculpture">
         <div className="Projects">
-          <div className="Sculpt">
-            <Blinkers />
+          <div className="Sculpt1">
+            <Link to="/blinkers">
+              <h3>Blinkers</h3>
+            </Link>
           </div>
-          <div className="Sculpt">
-            <WelcomeHome />
+          <div className="Sculpt2">
+            <Link to="/welcomehome">
+              <h3>Welcome Home</h3>
+            </Link>
           </div>
-          <div className="Sculpt">
-            <HeyHowGood />
+          <div className="Sculpt3">
+            <Link to="/heyhowgood">
+              <h3>Hey How Are You Good How Are You Good</h3>
+            </Link>
           </div>
         </div>
       </div>

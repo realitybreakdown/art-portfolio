@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import './WelcomeHome.css';
 
 
 class WelcomeHome extends Component {
   render() {
     return (
-      <Link to="/welcomehome">
         <div className="WelcomeHome">
-          <h3>Welcome Home</h3>
+          <h1>Welcome Home</h1>
+          <div className="WelcomeImg">
+            <img src="../../img/WelcomeHome/PersonSnake.png" alt="Snake"/>
+            <img src="../../img/WelcomeHome/SofaTable.png" alt="Sofa"/>
+            <img src="../../img/WelcomeHome/SpitoonIris.png" alt="Iris"/>
+            <img src="../../img/WelcomeHome/SpitoonRoom.png" alt="Room"/>
+            <img src="../../img/WelcomeHome/Sofa.png" alt="SofaRoom"/>
+          </div>
         </div>
-      </Link>
     );
   }
 }

@@ -2,12 +2,6 @@
     
 }
 
-.Sculpt {
-    border: solid;
-    border-color: black;
-    height: 250px;
-    width: 400px;
-}
 
 .Projects {
     margin-top: 100px;
@@ -18,4 +12,32 @@
 
 h3 {
     margin-top: 110px;
+    color: rgb(255, 145, 0);
+}
+
+.Sculpt1 {
+    border: solid;
+    border-color: black;
+    height: 250px;
+    width: 400px;
+    background-image: url("https://i.imgur.com/AmlCRdG.png");
+    background-size: 500px;
+}
+
+.Sculpt2 {
+    border: solid;
+    border-color: black;
+    height: 250px;
+    width: 400px;
+    background-image: url("https://i.imgur.com/f95kMi4.png");
+    background-size: 500px;
+}
+
+.Sculpt3 {
+    border: solid;
+    border-color: black;
+    height: 250px;
+    width: 400px;
+    background-image: url("https://i.imgur.com/7WEvnc8.png");
+    background-size: 500px;
 }

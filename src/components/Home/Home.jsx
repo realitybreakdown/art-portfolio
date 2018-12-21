@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-// import Contact from '../Contact/Contact';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import './Home.css';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1>Hi</h1>
-        <a href="/contact">Contact</a>
+        <Link to="/about">
+          <p>About</p>
+        </Link>
       </div>
     );
   }

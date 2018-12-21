@@ -8,8 +8,8 @@ class Nav extends Component {
   render() {
     return (
     <div className="Nav">
-      <NavLink to='' className='NavBar-link'>Ryan Arcambault</NavLink>
-      &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <NavLink to='' className='Ryan'>Ryan Arcambault</NavLink>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <NavLink to='/projects' className='NavBar-link'>Projects</NavLink>
       &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <NavLink to='/photo' className='NavBar-link' >Photo</NavLink>

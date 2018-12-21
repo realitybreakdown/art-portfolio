@@ -51,7 +51,6 @@ class Photos extends Component {
           <img src="../../img/Photo/RockStripes.png" alt="RockStripes2"/>
           <img src="../../img/Photo/Spires.png" alt="Spires"/>
           <img src="../../img/Photo/Sunset.png" alt="Sunset"/>
-          
         </div>
       </div>
     );

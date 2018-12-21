@@ -2,3 +2,14 @@
     padding-bottom: 30px;
     padding-top: 5px;
 }
+
+.Ryan {
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    position: absolute;
+    left: 200px;
+}
+
+.NavBar-link {
+    font-family: 'Oswald', sans-serif;
+}
