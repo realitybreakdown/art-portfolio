@@ -1,4 +1,15 @@
 .Ceramics img {
     width: 300px;
     padding: 100px;
+    padding-bottom: 10px;
+}
+
+.Ceramics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Cer {
+    width: 500px;
 }

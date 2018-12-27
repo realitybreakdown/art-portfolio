@@ -2,3 +2,13 @@
     height: 400px;
     padding: 10px;
 }
+
+.Blinkers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Blink {
+
+}

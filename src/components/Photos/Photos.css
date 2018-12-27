@@ -1,13 +1,3 @@
-.Photos {
-
-}
-
-/* .Pics {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-} */
-
 .Pics img {
     width: 550px;
     height: 350px;

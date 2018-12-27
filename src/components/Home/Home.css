@@ -3,5 +3,10 @@
 }
 
 .Home {
-    background-image: url();
+    height: 100vh;
+    width: 100%;
+    background: url('../../gif/billboard.gif') repeat center center fixed;;
+    /* background-color: yellow;  */
+    background-size: cover;
+    background-position: center;
 }

@@ -1,4 +1,16 @@
-.WelcomeImg img{
+.Welcome img{
     height: 400px;
     padding: 10px;
+    padding-bottom: 0px;
+}
+
+.Welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Wel {
+    width: 500px;
+    text-align: center;
 }

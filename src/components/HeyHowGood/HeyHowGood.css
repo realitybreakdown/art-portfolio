@@ -1,11 +1,15 @@
-.HeyGoodImg img {
-    height: 300px;
-    width: 400px;
-    padding-bottom: 50px;
+.HeyGood img {
+    height: 500px;
+    width: 600px;
+    padding-top: 20px;
 }
 
-.HeyGoodImg {
+.HeyGood {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.Hey {
+    
 }
