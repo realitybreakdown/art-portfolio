@@ -8,5 +8,10 @@
 }
 
 .PaintingsImg {
-  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Paint {
+
 }
