@@ -11,7 +11,6 @@ import Projects from './components/Projects/Projects';
 import Paintings from './components/Paintings/Paintings';
 import Video from './components/Video/Video';
 import Nav from './components/Nav/Nav';
-import Contact from './components/Contact/Contact';
 import Blinkers from './components/Blinkers/Blinkers';
 import WelcomeHome from './components/WelcomeHome/WelcomeHome';
 import HeyHowGood from './components/HeyHowGood/HeyHowGood';
@@ -29,7 +28,6 @@ class App extends Component {
             <Route path="/photo" component={Photos}/>
             <Route path="/painting" component={Paintings}/>
             <Route path="/video" component={Video}/>
-            <Route path="/contact" component={Contact}/>
             <Route path="/blinkers" component={Blinkers}/>
             <Route path="/welcomehome" component={WelcomeHome}/>
             <Route path="/heyhowgood" component={HeyHowGood}/>
