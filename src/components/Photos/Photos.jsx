@@ -6,6 +6,9 @@ class Photos extends Component {
     return (
       <div className="Photos">
         <div className="Pics">
+        <div className="AH">
+
+        </div>
           <img src="../../img/Photo/AbandonedHome.png" alt="Home"/>
           <img src="../../img/Photo/AlbinoTree.png" alt="Tree"/>
           <img src="../../img/Photo/Beach.png" alt="Beach"/>
