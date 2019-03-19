@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './Projects.css';
-// import Blinkers from '../Blinkers/Blinkers';
-// import WelcomeHome from '../WelcomeHome/WelcomeHome';
-// import HeyHowGood from '../HeyHowGood/HeyHowGood';
 import {Link} from 'react-router-dom';
 
 class Projects extends Component {
