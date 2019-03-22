@@ -15,8 +15,8 @@ class Nav extends Component {
       <NavLink to='/photo' className='NavBar-link' >Photo</NavLink>
       &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <NavLink to='/painting' className='NavBar-link'>Painting</NavLink>
-      &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <NavLink to='/video' className='NavBar-link'>Video</NavLink>
+      {/* &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; */}
+      {/* <NavLink to='/video' className='NavBar-link'>Video</NavLink> */}
       &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <NavLink to='/ceramics' className='NavBar-link'>Ceramics</NavLink>
   </div>

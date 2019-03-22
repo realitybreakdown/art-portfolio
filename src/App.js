@@ -9,7 +9,7 @@ import Ceramics from './components/Ceramics/Ceramics';
 import Photos from './components/Photos/Photos';
 import Projects from './components/Projects/Projects';
 import Paintings from './components/Paintings/Paintings';
-import Video from './components/Video/Video';
+// import Video from './components/Video/Video';
 import Nav from './components/Nav/Nav';
 import Blinkers from './components/Blinkers/Blinkers';
 import WelcomeHome from './components/WelcomeHome/WelcomeHome';
@@ -27,7 +27,7 @@ class App extends Component {
             <Route path="/projects" component={Projects}/>
             <Route path="/photo" component={Photos}/>
             <Route path="/painting" component={Paintings}/>
-            <Route path="/video" component={Video}/>
+            {/* <Route path="/video" component={Video}/> */}
             <Route path="/blinkers" component={Blinkers}/>
             <Route path="/welcomehome" component={WelcomeHome}/>
             <Route path="/heyhowgood" component={HeyHowGood}/>
